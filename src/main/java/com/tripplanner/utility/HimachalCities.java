@@ -4,13 +4,11 @@ import java.util.Arrays;
 
 public class HimachalCities {
    private String []cities = {"Shimla","Dharamsala","Kangra","Solan","Mandi","Palampur","Baddi","Nahan","Paonta","Sundarnagar","Chamba",
-   		 "Una","Kullu","Hamirpur","Bilaspur","Yol","Nalagarh","Nurpur","Kangra","Santokhgarh","Mehatpur Basdehra",
-   		 "Shamshi","Parwanoo","Manali","Tira Sujanpur", "Ghumarwin","Dalhousie", "Rohru", "Nagrota Bagwan","Rampur","Kumarsain",
-   		 "Jawalamukhi","Jogindernagar","Dera Gopipur","Sarkaghat","Jhakhri","Indora","Bhuntar","Nadaun",
-   		 "Theog","Kasauli","Gagret","Chuari Khas","Daulatpur","Sabathu","Rajgarh","Arki","Dagshai","Seoni","Talai","Jutogh","Chaupal",
-   		 "Rewalsar","Bakloh","Jubbal","Bhota","Banjar","Naina Devi","Kotkhai","Narkanda"};
+   		 "Kullu","Santokhgarh","Mehatpur","Shamshi","Parwanoo","Manali","Tira Sujanpur", "Ghumarwin","Dalhousie", "Rohru",
+   		 "Nagrota Bagwan","Kumarsain","Jawalamukhi","Jogindernagar","Dera Gopipur","Indora","Bhuntar","Nadaun","Theog","Kasauli",
+   		 "Chuari Khas","Sabathu","Dagshai","Talai","Jutogh","Chaupal","Bakloh","Jubbal","Banjar","Naina Devi","Kotkhai","Narkanda"};
    
-   String[] getListOfCities() {
+   public String[] getListOfCities() {
 	   Arrays.sort(cities);
 	   return cities;
    }
